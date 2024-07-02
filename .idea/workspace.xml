@@ -5,15 +5,20 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3ead4d12-9358-4093-a8e5-604a4fc9c992" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/sample_1/Runner.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/sample_1/sample_1_main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/SynchronizedResourceConcepts/SynchronizedWholeMethodOfAClass/Counter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/SynchronizedResourceConcepts/SynchronizedWholeMethodOfAClass/SampleOfNonSynchronizedResource.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/_01_methodsOfCreatingThread/RunnableInterface/ImplementTheRunnableInterface.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/_01_methodsOfCreatingThread/RunnableInterface/MainForRunnableInterface.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/_02_volatileModifierAtJava/01_volatile keyword in Java. why, when, and how to use it _ by Alexandru Nastase _ CodeX _ Medium.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/_02_volatileModifierAtJava/ThreadOneWithVolatileModifierField.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/_02_volatileModifierAtJava/ThreadTwoForChangeTheVariable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/_03_joinMethodAtThreadClass/HtmlPageForReadingAboutThis/Joining Threads in Java - GeeksforGeeks.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/_03_joinMethodAtThreadClass/ThreadClassJoinMethodChecking.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/sample_1/Runner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/_01_methodsOfCreatingThread/ThreadClass/Runner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/sample_1/sample_1_main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/_01_methodsOfCreatingThread/ThreadClass/MainForThreadClass.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,16 +41,22 @@
   <component name="ProjectId" id="2idvDbnYNA1r9Xi4fR9L0DqCU9C" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
-    <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.MainForRunnableInterface.executor": "Run",
+    "Application.SampleOfNonSynchronizedResource.executor": "Run",
+    "Application.ThreadClassJoinMethodCheck.executor": "Run",
+    "Application.ThreadClassJoinMethodChecking.executor": "Run",
+    "Application.ThreadTwoForChangeTheVariable.executor": "Run",
     "Application.sample_1_main.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "master",
     "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "/media/hossein/HDD2/JavaProjects/multithreadingStudy/src/main/java/org/example/joinMethodAtThreadClass",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -54,13 +65,74 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager">
-    <configuration name="sample_1_main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.sample_1.sample_1_main" />
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/java/org/example/joinMethodAtThreadClass" />
+      <recent name="$PROJECT_DIR$/src/main/java/org/example/volatileModifierAtJava" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/java/org/example/joinMethodAtThreadClass/HtmlPageForReadingAboutThis" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.SampleOfNonSynchronizedResource">
+    <configuration name="MainForRunnableInterface" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example._01_methodsOfCreatingThread.RunnableInterface.MainForRunnableInterface" />
       <module name="multithreadingStudy" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.sample_1.*" />
+          <option name="PATTERN" value="org.example._01_methodsOfCreatingThread.RunnableInterface.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MainForThreadClass" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example._01_methodsOfCreatingThread.ThreadClass.MainForThreadClass" />
+      <module name="multithreadingStudy" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example._01_methodsOfCreatingThread.ThreadClass.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SampleOfNonSynchronizedResource" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.SynchronizedResourceConcepts.SynchronizedWholeMethodOfAClass.SampleOfNonSynchronizedResource" />
+      <module name="multithreadingStudy" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.SynchronizedResourceConcepts.SynchronizedWholeMethodOfAClass.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ThreadClassJoinMethodChecking" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example._03_joinMethodAtThreadClass.ThreadClassJoinMethodChecking" />
+      <module name="multithreadingStudy" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example._03_joinMethodAtThreadClass.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ThreadTwoForChangeTheVariable" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example._02_volatileModifierAtJava.ThreadTwoForChangeTheVariable" />
+      <module name="multithreadingStudy" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example._02_volatileModifierAtJava.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -70,7 +142,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.sample_1_main" />
+        <item itemvalue="Application.SampleOfNonSynchronizedResource" />
+        <item itemvalue="Application.ThreadClassJoinMethodChecking" />
+        <item itemvalue="Application.ThreadTwoForChangeTheVariable" />
+        <item itemvalue="Application.MainForRunnableInterface" />
+        <item itemvalue="Application.MainForThreadClass" />
       </list>
     </recent_temporary>
   </component>
@@ -82,7 +158,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1719833157412</updated>
-      <workItem from="1719833158466" duration="502000" />
+      <workItem from="1719833158466" duration="11887000" />
     </task>
     <servers />
   </component>
