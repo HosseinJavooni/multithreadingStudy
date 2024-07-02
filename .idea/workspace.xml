@@ -5,20 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3ead4d12-9358-4093-a8e5-604a4fc9c992" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/SynchronizedResourceConcepts/SynchronizedWholeMethodOfAClass/Counter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/SynchronizedResourceConcepts/SynchronizedWholeMethodOfAClass/SampleOfNonSynchronizedResource.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/_01_methodsOfCreatingThread/RunnableInterface/ImplementTheRunnableInterface.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/_01_methodsOfCreatingThread/RunnableInterface/MainForRunnableInterface.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/_02_volatileModifierAtJava/01_volatile keyword in Java. why, when, and how to use it _ by Alexandru Nastase _ CodeX _ Medium.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/_02_volatileModifierAtJava/ThreadOneWithVolatileModifierField.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/_02_volatileModifierAtJava/ThreadTwoForChangeTheVariable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/_03_joinMethodAtThreadClass/HtmlPageForReadingAboutThis/Joining Threads in Java - GeeksforGeeks.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/_03_joinMethodAtThreadClass/ThreadClassJoinMethodChecking.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Multi_threading_Tutorial_part_04/_05_SynchronizedBlockSolution_MoviePart04/Resources.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Multi_threading_Tutorial_part_04/_05_SynchronizedBlockSolution_MoviePart04/Test_SynchronizedBlock_SynchronizedMethod_Showing_ExecutionTime.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Multi_threading_Tutorial_part_05/ThreadCreator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Multi_threading_Tutorial_part_05/ThreadPoolingWithExecutorClassInJava.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/sample_1/Runner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/_01_methodsOfCreatingThread/ThreadClass/Runner.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/sample_1/sample_1_main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/_01_methodsOfCreatingThread/ThreadClass/MainForThreadClass.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/SynchronizedResourceConcepts/SynchronizedWholeMethodOfAClass/Counter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/_04_SynchronizedResourceConcepts/_01_SynchronizedWholeMethodOfAClass/Counter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/SynchronizedResourceConcepts/SynchronizedWholeMethodOfAClass/SampleOfNonSynchronizedResource.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/_04_SynchronizedResourceConcepts/_01_SynchronizedWholeMethodOfAClass/SampleOfNonSynchronizedResource.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,16 +40,22 @@
   "keyToString": {
     "Application.MainForRunnableInterface.executor": "Run",
     "Application.SampleOfNonSynchronizedResource.executor": "Run",
+    "Application.TestSynchronizedBlock_Showing_ExecutionTime.executor": "Run",
+    "Application.TestSynchronizedMethod_Showing_ExecutionTime.executor": "Run",
+    "Application.Test_SynchronizedBlock_SynchronizedMethod_Showing_ExecutionTime.executor": "Run",
     "Application.ThreadClassJoinMethodCheck.executor": "Run",
     "Application.ThreadClassJoinMethodChecking.executor": "Run",
+    "Application.ThreadPoolingWithExecutorClassInJava.executor": "Run",
     "Application.ThreadTwoForChangeTheVariable.executor": "Run",
+    "Application.org.example.Multi_threading_Tutorial_part_04._05_SynchronizedBlockSolution_MoviePart04.Test_SynchronizedBlock_SynchronizedMethod_Showing_ExecutionTime.executor": "Run",
+    "Application.org.example._05_SynchronizedBlockSolution_MoviePart04.Test_SynchronizedBlock_SynchronizedMethod_Showing_ExecutionTime.executor": "Run",
     "Application.sample_1_main.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "master",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "/media/hossein/HDD2/JavaProjects/multithreadingStudy/src/main/java/org/example/joinMethodAtThreadClass",
+    "last_opened_file_path": "/media/hossein/HDD2/JavaProjects/multithreadingStudy/Tutorails_Movies",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -67,6 +66,7 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/Tutorails_Movies" />
       <recent name="$PROJECT_DIR$/src/main/java/org/example/joinMethodAtThreadClass" />
       <recent name="$PROJECT_DIR$/src/main/java/org/example/volatileModifierAtJava" />
     </key>
@@ -74,13 +74,13 @@
       <recent name="$PROJECT_DIR$/src/main/java/org/example/joinMethodAtThreadClass/HtmlPageForReadingAboutThis" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.SampleOfNonSynchronizedResource">
-    <configuration name="MainForRunnableInterface" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example._01_methodsOfCreatingThread.RunnableInterface.MainForRunnableInterface" />
+  <component name="RunManager" selected="Application.ThreadPoolingWithExecutorClassInJava">
+    <configuration name="TestSynchronizedMethod_Showing_ExecutionTime" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example._04_SynchronizedResourceConcepts._02_SynchronizedBlockSolution.TestSynchronizedMethod_Showing_ExecutionTime" />
       <module name="multithreadingStudy" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example._01_methodsOfCreatingThread.RunnableInterface.*" />
+          <option name="PATTERN" value="org.example._04_SynchronizedResourceConcepts._02_SynchronizedBlockSolution_MoviePart04.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -88,12 +88,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MainForThreadClass" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example._01_methodsOfCreatingThread.ThreadClass.MainForThreadClass" />
+    <configuration name="Test_SynchronizedBlock_SynchronizedMethod_Showing_ExecutionTime" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example._04_SynchronizedResourceConcepts._02_SynchronizedBlockSolution_MoviePart04.Test_SynchronizedBlock_SynchronizedMethod_Showing_ExecutionTime" />
       <module name="multithreadingStudy" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example._01_methodsOfCreatingThread.ThreadClass.*" />
+          <option name="PATTERN" value="org.example._04_SynchronizedResourceConcepts._02_SynchronizedBlockSolution_MoviePart04.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -101,12 +101,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SampleOfNonSynchronizedResource" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.SynchronizedResourceConcepts.SynchronizedWholeMethodOfAClass.SampleOfNonSynchronizedResource" />
+    <configuration name="ThreadPoolingWithExecutorClassInJava" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.Multi_threading_Tutorial_part_05.ThreadPoolingWithExecutorClassInJava" />
       <module name="multithreadingStudy" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.SynchronizedResourceConcepts.SynchronizedWholeMethodOfAClass.*" />
+          <option name="PATTERN" value="org.example.Multi_threading_Tutorial_part_05.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -114,12 +114,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ThreadClassJoinMethodChecking" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example._03_joinMethodAtThreadClass.ThreadClassJoinMethodChecking" />
+    <configuration name="org.example.Multi_threading_Tutorial_part_04._05_SynchronizedBlockSolution_MoviePart04.Test_SynchronizedBlock_SynchronizedMethod_Showing_ExecutionTime" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.Multi_threading_Tutorial_part_04._05_SynchronizedBlockSolution_MoviePart04.Test_SynchronizedBlock_SynchronizedMethod_Showing_ExecutionTime" />
       <module name="multithreadingStudy" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example._03_joinMethodAtThreadClass.*" />
+          <option name="PATTERN" value="org.example.Multi_threading_Tutorial_part_04._05_SynchronizedBlockSolution_MoviePart04.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -127,12 +127,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ThreadTwoForChangeTheVariable" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example._02_volatileModifierAtJava.ThreadTwoForChangeTheVariable" />
+    <configuration name="org.example._05_SynchronizedBlockSolution_MoviePart04.Test_SynchronizedBlock_SynchronizedMethod_Showing_ExecutionTime" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example._05_SynchronizedBlockSolution_MoviePart04.Test_SynchronizedBlock_SynchronizedMethod_Showing_ExecutionTime" />
       <module name="multithreadingStudy" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example._02_volatileModifierAtJava.*" />
+          <option name="PATTERN" value="org.example._05_SynchronizedBlockSolution_MoviePart04.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -142,11 +142,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.SampleOfNonSynchronizedResource" />
-        <item itemvalue="Application.ThreadClassJoinMethodChecking" />
-        <item itemvalue="Application.ThreadTwoForChangeTheVariable" />
-        <item itemvalue="Application.MainForRunnableInterface" />
-        <item itemvalue="Application.MainForThreadClass" />
+        <item itemvalue="Application.ThreadPoolingWithExecutorClassInJava" />
+        <item itemvalue="Application.org.example.Multi_threading_Tutorial_part_04._05_SynchronizedBlockSolution_MoviePart04.Test_SynchronizedBlock_SynchronizedMethod_Showing_ExecutionTime" />
+        <item itemvalue="Application.org.example._05_SynchronizedBlockSolution_MoviePart04.Test_SynchronizedBlock_SynchronizedMethod_Showing_ExecutionTime" />
+        <item itemvalue="Application.Test_SynchronizedBlock_SynchronizedMethod_Showing_ExecutionTime" />
+        <item itemvalue="Application.TestSynchronizedMethod_Showing_ExecutionTime" />
       </list>
     </recent_temporary>
   </component>
@@ -158,7 +158,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1719833157412</updated>
-      <workItem from="1719833158466" duration="11887000" />
+      <workItem from="1719833158466" duration="20088000" />
     </task>
     <servers />
   </component>
