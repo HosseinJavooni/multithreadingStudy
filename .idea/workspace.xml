@@ -22,9 +22,9 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 4
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 4
+}</component>
   <component name="ProjectId" id="2idvDbnYNA1r9Xi4fR9L0DqCU9C" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -47,14 +47,22 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
     "git-widget-placeholder": "master",
     "kotlin-language-version-configured": "true",
+<<<<<<< HEAD
     "last_opened_file_path": "/media/hossein/HDD2/JavaProjects/multithreadingStudy/Tutorails_Movies/Multi-threading_CaveOfProgramming",
+=======
+    "last_opened_file_path": "/run/media/hossein/H1/JavaProjects/multithreadingStudy",
+>>>>>>> 29b88c6292b1a52b7ef5dbcb326971896677b129
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -69,7 +77,7 @@
       <recent name="$PROJECT_DIR$/src/main/java/org/example/joinMethodAtThreadClass/HtmlPageForReadingAboutThis" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ThreadPoolingWithExecutorClassInJava">
+  <component name="RunManager" selected="Application.org.example.Multi_threading_Tutorial_part_04._05_SynchronizedBlockSolution_MoviePart04.Test_SynchronizedBlock_SynchronizedMethod_Showing_ExecutionTime">
     <configuration name="TestSynchronizedMethod_Showing_ExecutionTime" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example._04_SynchronizedResourceConcepts._02_SynchronizedBlockSolution.TestSynchronizedMethod_Showing_ExecutionTime" />
       <module name="multithreadingStudy" />
@@ -137,8 +145,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.ThreadPoolingWithExecutorClassInJava" />
         <item itemvalue="Application.org.example.Multi_threading_Tutorial_part_04._05_SynchronizedBlockSolution_MoviePart04.Test_SynchronizedBlock_SynchronizedMethod_Showing_ExecutionTime" />
+        <item itemvalue="Application.ThreadPoolingWithExecutorClassInJava" />
         <item itemvalue="Application.org.example._05_SynchronizedBlockSolution_MoviePart04.Test_SynchronizedBlock_SynchronizedMethod_Showing_ExecutionTime" />
         <item itemvalue="Application.Test_SynchronizedBlock_SynchronizedMethod_Showing_ExecutionTime" />
         <item itemvalue="Application.TestSynchronizedMethod_Showing_ExecutionTime" />
@@ -153,7 +161,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1719833157412</updated>
-      <workItem from="1719833158466" duration="22256000" />
+      <workItem from="1719833158466" duration="20088000" />
     </task>
     <servers />
   </component>
