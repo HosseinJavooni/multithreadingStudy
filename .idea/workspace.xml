@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3ead4d12-9358-4093-a8e5-604a4fc9c992" name="Changes" comment="">
+    <list default="true" id="39fd05b6-10ee-4b25-98b4-ed9de5d933e1" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -30,38 +30,38 @@
   <component name="ProjectViewState">
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.MainForRunnableInterface.executor": "Run",
-    "Application.SampleOfNonSynchronizedResource.executor": "Run",
-    "Application.TestSynchronizedBlock_Showing_ExecutionTime.executor": "Run",
-    "Application.TestSynchronizedMethod_Showing_ExecutionTime.executor": "Run",
-    "Application.Test_SynchronizedBlock_SynchronizedMethod_Showing_ExecutionTime.executor": "Run",
-    "Application.ThreadClassJoinMethodCheck.executor": "Run",
-    "Application.ThreadClassJoinMethodChecking.executor": "Run",
-    "Application.ThreadPoolingWithExecutorClassInJava.executor": "Run",
-    "Application.ThreadTwoForChangeTheVariable.executor": "Run",
-    "Application.org.example.Multi_threading_Tutorial_part_04._05_SynchronizedBlockSolution_MoviePart04.Test_SynchronizedBlock_SynchronizedMethod_Showing_ExecutionTime.executor": "Run",
-    "Application.org.example._05_SynchronizedBlockSolution_MoviePart04.Test_SynchronizedBlock_SynchronizedMethod_Showing_ExecutionTime.executor": "Run",
-    "Application.sample_1_main.executor": "Run",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "master",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "/media/hossein/HDD2/JavaProjects/multithreadingStudy/Tutorails_Movies/Multi-threading_CaveOfProgramming",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Project",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.MainForRunnableInterface.executor&quot;: &quot;Run&quot;,
+    &quot;Application.SampleOfNonSynchronizedResource.executor&quot;: &quot;Run&quot;,
+    &quot;Application.TestSynchronizedBlock_Showing_ExecutionTime.executor&quot;: &quot;Run&quot;,
+    &quot;Application.TestSynchronizedMethod_Showing_ExecutionTime.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Test_SynchronizedBlock_SynchronizedMethod_Showing_ExecutionTime.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ThreadClassJoinMethodCheck.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ThreadClassJoinMethodChecking.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ThreadPoolingWithExecutorClassInJava.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ThreadTwoForChangeTheVariable.executor&quot;: &quot;Run&quot;,
+    &quot;Application.org.example.Multi_threading_Tutorial_part_04._05_SynchronizedBlockSolution_MoviePart04.Test_SynchronizedBlock_SynchronizedMethod_Showing_ExecutionTime.executor&quot;: &quot;Run&quot;,
+    &quot;Application.org.example._05_SynchronizedBlockSolution_MoviePart04.Test_SynchronizedBlock_SynchronizedMethod_Showing_ExecutionTime.executor&quot;: &quot;Run&quot;,
+    &quot;Application.sample_1_main.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/media/hossein/HDD2/JavaProjects/multithreadingStudy/Tutorails_Movies/Multi-threading_CaveOfProgramming&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/Tutorails_Movies/Multi-threading_CaveOfProgramming" />
