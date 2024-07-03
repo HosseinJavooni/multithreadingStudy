@@ -1,4 +1,4 @@
-package org.example.Multi_threading_Tutorial_part_05;
+package org.example.part_05_Multi_threading_Tutorials;
 
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;

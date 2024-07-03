@@ -1,4 +1,4 @@
-package org.example.Multi_threading_Tutorial_part_04._05_SynchronizedBlockSolution_MoviePart04;
+package org.example.part_04_Multi_threading_Tutorials._05_SynchronizedBlockSolution_MoviePart04;
 
 import java.util.ArrayList;
 import java.util.List;
